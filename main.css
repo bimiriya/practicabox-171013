@@ -1,0 +1,39 @@
+/*hola*/
+/*usando class*/
+.azul{
+	background-color: blue;
+}
+
+/* le sacamos la linea al enlace*/
+a{
+	color:white;
+	text-decoration: none;
+}
+/*USANDO ID*/
+#titulo{
+	background-color: red;
+}
+/*Llamando al li siguiente del primero*/
+li:first-of-type + li{
+	color:white;
+}
+/*llamando al primer hijo de ol*/
+ol li:first-child{
+	color:green;
+}
+/*llamando al ultimo hijo de ol*/
+li:last-child{
+	color:yellow;
+}
+
+.caja {
+	background-color: yellow;
+	padding: 1em; /* 1em === 16px */
+	border: 1em black solid;
+}
+
+h2 {
+	background-color: red;
+	padding-top: 1em;
+	margin-top: 1em;
+}
